@@ -81,7 +81,7 @@ button:hover{
 }
 
 .contem-text{
-    padding: 150px 0 0 45%;
+    padding: 90px 0 0 45%;
     font-size: 15px;
 }
 .text h1{
@@ -95,7 +95,7 @@ button:hover{
 
 .redes{
     color: #7f5539;
-    padding: 200px 0 0 80% ;
+    padding: 20px 0 0 80% ;
 } 
 
 .redes a{
@@ -124,7 +124,7 @@ button:hover{
     flex-direction: column;
     background-color: #21201D;
     height: 200px;
-    width: 200px;
+    width: 300px;
     justify-content: center;
     align-items: center;
 }
@@ -182,5 +182,5 @@ button:hover{
 .titulo{
     font-size: 26px;
     padding-left: 39%;
-    padding-bottom: 24px;
+    padding-bottom: 12px;
 }

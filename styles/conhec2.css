@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;900&display=swap');
+@font-face {
+    font-family: 'Impact Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Impact Regular'), url('./fonts/impact.woff') format('woff');
+}
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +21,7 @@ body{
 
 .background{ 
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: url(eu2.jpeg);
+    background-image: url(../imgs/eu2.jpeg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -29,7 +35,6 @@ header{
     align-items: center;
     text-align: center;
     padding-top: 1rem;
-
 }
 
 .cabecalho-link{
@@ -80,24 +85,89 @@ button:hover{
     transition: 0.3s;
 }
 
-.contem-text{
-    padding: 150px 0 0 45%;
+.titulo{
+    font-size: 26px;
+    padding-left: 45%;
+    padding-bottom: 24px;
+}
+
+.titulo2{
+    font-size: 26px;
+    padding-left: 34%;
+    padding-top: 30px;
+}
+
+.cotem{
+    padding: 40px 0 0 40%;
     font-size: 15px;
 }
-.text h1{
+
+
+.cotem h1{
     color: #fff;
     margin-top: 10px;
 }
-.text p{
+
+.cotem ul{
     color: #fff;
     margin-top: 10px;
+    font-size: 15px;
 }
+
 .redes{
     color: #7f5539;
-    padding: 240px 0 0 90% ;
+    padding: 20px 0 0 90% ;
 } 
 .redes a{
     color: #7f5539;
     padding: 10px;
     margin-top: 5px;
+}
+
+
+#habilidades{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#habilidades2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #21201D;
+    height: 185px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.card img.hover{
+    display: none;
+}
+
+.card:hover > img.normal{
+    display: none;
+}
+
+.card:hover > img.hover{
+    display: block;
+    transform: scale(1.1);
 }

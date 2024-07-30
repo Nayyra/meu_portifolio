@@ -15,7 +15,7 @@ body{
 
 .background{ 
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: url(eu2.jpeg);
+    background-image: url(../imgs/eu.jpeg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -79,28 +79,43 @@ button:hover{
     transition: 0.3s;
 }
 
-.cotem{
-    padding: 150px 0 0 45%;
+.contem-texto{
+    padding: 150px 0 0 100px;
+    font-size: 25px;
+}
+
+.texto h3{
+    color: #fff;
     font-size: 15px;
 }
 
-.cotem h1{
+.texto h1{
     color: #fff;
     margin-top: 10px;
 }
 
-.cotem ul{
-    color: #fff;
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-.redes{
+.texto span{
     color: #7f5539;
-    padding: 240px 0 0 90% ;
-} 
-.redes a{
+}
+
+.texto p{
+color: #fff;
+font-size: 13px;
+font-weight: 300;
+margin-top: 10px;
+}
+
+.rede-sociais a{
     color: #7f5539;
     padding: 10px;
     margin-top: 5px;
+
 }
+
+.email:hover{
+    background-color: #7f5539;
+    color: #fff;
+    transition: 0.3s;
+
+}
+

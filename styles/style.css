@@ -15,7 +15,7 @@ body{
 
 .background{ 
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: url(../imgs/eu.jpeg);
+    background-image: url(../imgs/1.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -80,18 +80,17 @@ button:hover{
 }
 
 .contem-texto{
-    padding: 150px 0 0 100px;
+    padding: 180px 0 0 450px;
     font-size: 25px;
 }
 
 .texto h3{
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .texto h1{
     color: #fff;
-    margin-top: 10px;
 }
 
 .texto span{
